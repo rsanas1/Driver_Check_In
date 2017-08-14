@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Driver Check In</string>
+    <string-array name="buses">
+        <item>Bus No 5</item>
+        <item>Bus No 8</item>
+        <item>Bus No 15</item>
+        <item>Bus No 16</item>
+        <item>Bus No 17</item>
+
+    </string-array>
+
+
+
+
+</resources>

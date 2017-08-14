@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.rishi.gps_check.MainActivity">
+
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/selectBus"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        style="@android:style/Widget.Holo.Light.Spinner"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:id="@+id/locationText"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click the Button" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.ButtonBar"
+        android:text="Get Location"
+        android:id="@+id/button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        />
+    <ToggleButton
+        android:id="@+id/tgButton"
+        android:textOff="Turn On Gps"
+        android:textOn="Turn Off Gps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"/>
+</LinearLayout>

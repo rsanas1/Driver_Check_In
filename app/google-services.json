@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "484490998054",
+    "firebase_url": "https://gpscheck-3b9c0.firebaseio.com",
+    "project_id": "gpscheck-3b9c0",
+    "storage_bucket": "gpscheck-3b9c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484490998054:android:d3193c294230ecac",
+        "android_client_info": {
+          "package_name": "com.example.rishi.gps_check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484490998054-d6q7t5031g22gaapdpo8br4nnq4r5kij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishi.gps_check",
+            "certificate_hash": "87e07ba0f75c7675536671091b5212fb2c2a25bd"
+          }
+        },
+        {
+          "client_id": "484490998054-6lpearvlh6oas6pk2qt77qrgncnij5qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbyaX3v4eSGyy3WseL0M17Xsk3S9VUfYU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484490998054-6lpearvlh6oas6pk2qt77qrgncnij5qt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
